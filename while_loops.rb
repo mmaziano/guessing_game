@@ -14,6 +14,4 @@ while guess.upcase != secret_word.upcase
     guess = gets.chomp()
 end
 
-if guess = secret_word 
-    puts "You Won!"
-end 
+puts "You Won!" 
