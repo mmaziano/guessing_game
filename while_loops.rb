@@ -1,5 +1,5 @@
 # Guessing Game using WHILE LOOPS
-friends = ["Dog", "Sergio", "Games", "Pizza", "Hammer"]
+friends = ["Dog", "Sergio", "Games", "Pizza", "Hammer", "Wallet", "Flower"]
 
 friends.each_with_index do |friend, index|
     puts "#{index} - #{friend}"
@@ -14,4 +14,4 @@ while guess.upcase != secret_word.upcase
     guess = gets.chomp()
 end
 
-puts "You Won!" 
+puts "You Won!"
