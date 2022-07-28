@@ -1,5 +1,6 @@
 # Guessing Game using WHILE LOOPS
-friends = ["Dog", "Sergio", "Games", "Pizza", "Hammer", "Wallet", "Flower", "You", "Videos"]
+puts "Guess the random word!"
+friends = ["Dog", "Sergio", "Games", "Pizza", "Hammer", "Wallet", "Flower", "You", "Videos", ]
 
 friends.each_with_index do |friend, index|
     puts "#{index} - #{friend}"
